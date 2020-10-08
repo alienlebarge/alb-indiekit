@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "description": "Indiekit server for my personal website",
   "main": "indiekit.config.js",
-  "dependencies": {},
+  "dependencies": {
+    "@indiekit/preset-jekyll": "0.1.0-alpha.6",
+    "@indiekit/store-github": "0.1.0-alpha.6"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
