@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "alb-indiekit",
+  "version": "1.0.0",
+  "description": "Indiekit server for my personal website",
+  "main": "indiekit.config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alienlebarge/alb-indiekit.git"
+  },
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": {
+    "name": "Cédric Aellen",
+    "url": "https://alienlebarge.ch"
+  },
+  "bugs": {
+    "url": "https://github.com/alienlebarge/alb-indiekit/issues"
+  },
+  "homepage": "https://github.com/alienlebarge/alb-indiekit#readme"
+}
