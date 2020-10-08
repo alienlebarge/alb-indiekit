@@ -20,7 +20,7 @@ const jekyll = new JekyllPreset();
 indiekit.set('publication.me', 'https://alienlebarge.ch');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.store', github);
-:
+
 // Create a server
 const server = indiekit.server();
 
