@@ -5,6 +5,7 @@
   "description": "Indiekit server for my personal website",
   "main": "indiekit.config.js",
   "dependencies": {
+    "@indiekit/indiekit": "0.1.0-alpha.10",
     "@indiekit/preset-jekyll": "0.1.0-alpha.6",
     "@indiekit/store-github": "0.1.0-alpha.6"
   },
@@ -12,7 +13,6 @@
   "scripts": {
     "start": "node indiekit.config.js"
   },
-  "main": "indiekit.config.js",
   "type": "module",
   "repository": {
     "type": "git",
@@ -22,13 +22,12 @@
     "indiekit",
     "indieweb"
   ],
-  "homepage": "https://alb-indiekit.herokuapp.com/",
+  "homepage": "https://github.com/alienlebarge/alb-indiekit#readme",
   "author": {
     "name": "Cédric Aellen",
     "url": "https://alienlebarge.ch"
   },
   "bugs": {
     "url": "https://github.com/alienlebarge/alb-indiekit/issues"
-  },
-  "homepage": "https://github.com/alienlebarge/alb-indiekit#readme"
+  }
 }
