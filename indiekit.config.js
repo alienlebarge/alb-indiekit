@@ -13,6 +13,17 @@ const github = new GithubStore({
   token: process.env.GITHUB_TOKEN // GitHub personal access token
 });
 
+const syndicationTargets =  [{
+  uid: 'https://twitter.com/alienlebarge/',
+  name: '@alienlebarge on Twitter'
+}, {
+  uid: 'https://mastodon.alienlebarge.ch/@alienlebarge',
+  name: '@alienlebarge on Mastodon'
+}, {
+  uid: 'https://micro.blog/alienlebarge',
+  name: '@alienlebarge on Micro.blog'
+}];
+
 // Configure Jekyll publication preset
 const jekyll = new JekyllPreset();
 
@@ -21,6 +32,7 @@ indiekit.set('publication.categories', 'https://alienlebarge.ch/archives/categor
 indiekit.set('publication.me', 'https://alienlebarge.ch');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.store', github);
+indiekit.set('publication.syndicationTargets', syndicationTargets);
 indiekit.set('publication.timeZone', 'Europe/Zurich');
 
 // Create a server
