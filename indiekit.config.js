@@ -9,7 +9,7 @@ const indiekit = new Indiekit();
 const github = new GithubStore({
   user: 'alienlebarge', // Your username on GitHub
   repo: 'alienlebargech-v3', // Repository files will be saved to
-  branch: 'main', // Branch to publish to
+  branch: 'master', // Branch to publish to
   token: process.env.GITHUB_TOKEN // GitHub personal access token
 });
 
