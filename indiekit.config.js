@@ -28,14 +28,28 @@ const syndicationTargets =  [{
 const jekyll = new JekyllPreset();
 
 // Override presets
-indiekit.set('publication.postTypes', [{
-  type: 'note',
-  name: 'Note',
-  post: {
-    path: "src/_content/notes/{yyyy}{MM}{dd}{HH}{mm}{ss}.md",
-    url: "notes/{yyyy}{MM}{dd}{HH}{mm}{ss}"
+indiekit.set('publication.postTypes', [
+  {
+    type: 'note',
+    name: 'Note',
+    post: {
+      path: "src/_content/notes/{yyyy}{MM}{dd}{HH}{mm}{ss}.md",
+      url: "notes/{yyyy}{MM}{dd}{HH}{mm}{ss}"
+    }
+  },
+  {
+    type: 'photo',
+    name: 'Photo',
+    post: {
+      path: "src/_content/photos/{yyyy}-{MM}-{dd}-{slug}.md",
+      url: "photos/{yyyy}/{MM}/{slug}"
+    },
+    media: {
+      path: "src/media/photos/{yyyy}/{MM}/{dd}/{filename}",
+      url: "media/photos/{yyyy}/{MM}/{dd}/{filename}"
+    }
   }
-}]);
+]);
 
 // Configure publication
 indiekit.set('publication.categories', 'https://alienlebarge.ch/archives/categories.json');
