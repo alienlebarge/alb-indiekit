@@ -34,8 +34,8 @@ indiekit.set('publication.postTypes', [{
   post: {
     path: "src/_content/notes/{yyyy}{MM}{dd}{HH}{mm}{ss}.md",
     url: "notes/{yyyy}{MM}{dd}{HH}{mm}{ss}"
-  },
-},
+  }
+}]);
 
 // Configure publication
 indiekit.set('publication.categories', 'https://alienlebarge.ch/archives/categories.json');
