@@ -30,11 +30,11 @@ const jekyll = new JekyllPreset();
 // Override presets
 indiekit.set('publication.postTypes', [
   {
-  type: 'article',
-  name: 'Article',
-  post: {
-    path: 'src/_content/articles/{yyyy}-{MM}-{dd}-{slug}.md',
-    url: '{yyyy}/{MM}/{slug}'
+    type: 'article',
+    name: 'Article',
+    post: {
+      path: 'src/_content/articles/{yyyy}-{MM}-{dd}-{slug}.md',
+      url: '{yyyy}/{MM}/{slug}'
     },
     media: {
       path: 'src/media/articles/{yyyy}/{MM}/{dd}/{slug}/{filename}',
