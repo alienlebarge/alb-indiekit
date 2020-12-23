@@ -73,6 +73,14 @@ indiekit.set("publication.postTypes", [
       url: "bookmarks/{yyyy}/{MM}/{slug}",
     },
   },
+  {
+    type: 'like',
+    name: 'Like',
+    post: {
+      path: 'src/_content/likes/{yyyy}-{MM}-{dd}-{slug}.md',
+      url: 'likes/{yyyy}/{MM}/{dd}/{slug}'
+    }
+  },
 ]);
 
 // Configure publication
