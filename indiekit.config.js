@@ -5,7 +5,7 @@ import { GithubStore } from "@indiekit/store-github";
 // Create a new indiekit instance
 const indiekit = new Indiekit();
 
-// Configure GitHub content store
+// Configure content store
 const github = new GithubStore({
   user: "alienlebarge", // Your username on GitHub
   repo: "alienlebargech-v3", // Repository files will be saved to
@@ -13,6 +13,7 @@ const github = new GithubStore({
   token: process.env.GITHUB_TOKEN, // GitHub personal access token
 });
 
+// Configure syndication targets
 const syndicationTargets = [
   {
     uid: "https://twitter.com/alienlebarge/",
