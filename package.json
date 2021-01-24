@@ -9,7 +9,6 @@
     "@indiekit/preset-jekyll": "0.1.0-alpha.20",
     "@indiekit/store-github": "0.1.0-alpha.15"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node indiekit.config.js"
   },
