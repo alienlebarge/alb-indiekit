@@ -1,6 +1,7 @@
 import { Indiekit } from "@indiekit/indiekit";
 import { JekyllPreset } from "@indiekit/preset-jekyll";
 import { GithubStore } from "@indiekit/store-github";
+import {TwitterSyndicator} from '@indiekit/syndicator-twitter';
 
 // Create a new indiekit instance
 const indiekit = new Indiekit();
@@ -11,6 +12,17 @@ const github = new GithubStore({
   repo: "alienlebargech-v3", // Repository files will be saved to
   branch: "master", // Branch to publish to
   token: process.env.GITHUB_TOKEN, // GitHub personal access token
+});
+
+// Configure Twitter syndicator
+const twitter = new TwitterSyndicator({
+  checked: true,
+  forced: true,
+  user: 'alienlebarge',
+  apiKey: process.env.TWITTER_API_KEY,
+  apiKeySecret: process.env.TWITTER_API_KEY_SECRET,
+  accessToken: process.env.TWITTER_ACCESS_TOKEN,
+  accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
 // Configure syndication targets
