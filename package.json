@@ -28,9 +28,7 @@
     "@indiekit/indiekit": "0.1.0-alpha.20",
     "@indiekit/preset-jekyll": "0.1.0-alpha.20",
     "@indiekit/store-github": "0.1.0-alpha.15",
-    "@indiekit/syndicator-twitter": "^0.1.0-alpha.16",
-    "i": "^0.3.6",
-    "npm": "^6.14.11"
+    "@indiekit/syndicator-twitter": "^0.1.0-alpha.16"
   },
   "engines": {
     "node": "14.x"
