@@ -97,10 +97,7 @@ indiekit.set("publication.postTypes", [
 ]);
 
 // Configure publication
-indiekit.set(
-  "publication.categories",
-  "https://alienlebarge.ch/archives/categories.json"
-);
+indiekit.set("publication.categories", "https://alienlebarge.ch/archives/categories.json");
 indiekit.set("publication.me", "https://alienlebarge.ch");
 indiekit.set("publication.preset", jekyll);
 indiekit.set("publication.store", github);
