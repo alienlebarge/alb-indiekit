@@ -102,6 +102,9 @@ indiekit.set('publication.me', 'https://alienlebarge.ch');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.store', github);
 indiekit.set('publication.syndicationTargets', syndicationTargets);
+indiekit.set('publication.syndicationTargets', [
+  twitter
+]);
 indiekit.set('publication.timeZone', 'Europe/Zurich');
 
 // Create a server
