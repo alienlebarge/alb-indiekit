@@ -25,10 +25,10 @@
     "start": "node indiekit.config.js"
   },
   "dependencies": {
-    "@indiekit/indiekit": "0.1.0-alpha.20",
-    "@indiekit/preset-jekyll": "0.1.0-alpha.20",
-    "@indiekit/store-github": "0.1.0-alpha.15",
-    "@indiekit/syndicator-twitter": "^0.1.0-alpha.16"
+    "@indiekit/indiekit": "0.1.0-alpha.21",
+    "@indiekit/preset-jekyll": "0.1.0-alpha.21",
+    "@indiekit/store-github": "0.1.0-alpha.21",
+    "@indiekit/syndicator-twitter": "^0.1.0-alpha.21"
   },
   "engines": {
     "node": "14.x"
