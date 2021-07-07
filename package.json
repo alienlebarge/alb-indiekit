@@ -22,7 +22,7 @@
   "type": "module",
   "main": "indiekit.config.js",
   "scripts": {
-    "start": "node indiekit.config.js"
+    "start": "DEBUG=* node indiekit.config.js"
   },
   "dependencies": {
     "@indiekit/indiekit": "0.1.3",
