@@ -81,7 +81,7 @@ indiekit.set('publication.postTypes', [
 ]);
 
 // Application settings
-indiekit.set('application.mongodbUrl', process.env.MONGODB_URL);
+indiekit.set('application.mongodbUrl', process.env.MONGODB_URL)
 
 // Configure publication
 indiekit.set('publication.categories', 'https://alienlebarge.ch/archives/categories.json');
