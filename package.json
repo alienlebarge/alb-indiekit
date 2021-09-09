@@ -25,9 +25,9 @@
     "start": "DEBUG=* node indiekit.config.js"
   },
   "dependencies": {
-    "@indiekit/indiekit": "0.1.4",
-    "@indiekit/preset-jekyll": "0.1.2",
-    "@indiekit/store-github": "0.1.4",
+    "@indiekit/indiekit": "^0.1.4",
+    "@indiekit/preset-jekyll": "^0.1.2",
+    "@indiekit/store-github": "^0.1.4",
     "@indiekit/syndicator-twitter": "^0.1.3"
   },
   "engines": {
