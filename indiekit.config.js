@@ -51,6 +51,14 @@ indiekit.set('publication.postTypes', [
     }
   },
   {
+      type: 'reply',
+      name: 'Reply',
+      post: {
+        path: 'src/_content/replies/{yyyy}{MM}{dd}{HH}{mm}{ss}.md',
+        url: 'replies/{yyyy}{MM}{dd}{HH}{mm}{ss}'
+      }
+    },
+  {
     type: 'photo',
     name: 'Photo',
     post: {
