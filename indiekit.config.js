@@ -96,9 +96,13 @@ indiekit.set('publication.categories', 'https://alienlebarge.ch/archives/categor
 indiekit.set('publication.me', 'https://alienlebarge.ch');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.store', github);
-indiekit.set('publication.syndicationTargets', [
-  twitter
-]);
+indiekit.set('publication.syndicationTargets', [{
+  twitter,
+  {
+    uid: 'https://mastodon.alienlebarge.ch/@alienlebarge',
+    name: 'alienlebarge'
+  }
+}]);
 indiekit.set('publication.timeZone', 'Europe/Zurich');
 
 // Create a server
