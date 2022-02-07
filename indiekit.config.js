@@ -1,6 +1,7 @@
 import {Indiekit} from '@indiekit/indiekit';
 import {JekyllPreset} from '@indiekit/preset-jekyll';
 import {GithubStore} from '@indiekit/store-github';
+import {MastodonSyndicator} from '@indiekit/syndicator-mastodon';
 import {TwitterSyndicator} from '@indiekit/syndicator-twitter';
 
 // Create a new indiekit instance
@@ -12,6 +13,14 @@ const github = new GithubStore({
   repo: 'alienlebargech-v3', // Repository files will be saved to
   branch: 'master', // Branch to publish to
   token: process.env.GITHUB_TOKEN // GitHub personal access token
+});
+
+// Configure Mastodon syndicator
+const mastodon = new MastodonSyndicator({
+  checked: true,
+  forced: true,
+  url: 'https://mastodon.alienlebarge.ch',
+  user: 'alienlebarge'
 });
 
 // Configure Twitter syndicator
