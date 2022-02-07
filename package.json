@@ -25,10 +25,10 @@
     "start": "DEBUG=* node indiekit.config.js"
   },
   "dependencies": {
-    "@indiekit/indiekit": "^0.2.0",
-    "@indiekit/preset-jekyll": "^0.2.0",
-    "@indiekit/store-github": "^0.2.0",
-    "@indiekit/syndicator-twitter": "^0.2.0"
+    "@indiekit/indiekit": "^0.3.0",
+    "@indiekit/preset-jekyll": "^0.3.0",
+    "@indiekit/store-github": "^0.3.0",
+    "@indiekit/syndicator-twitter": "^0.3.0"
   },
   "engines": {
     "node": "16.x"
