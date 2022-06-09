@@ -39,8 +39,8 @@ indiekit.set('publication.postTypes', [
     type: 'article',
     name: 'Article',
     post: {
-      path: 'src/_content/articles/{yyyy}-{MM}-{dd}-{slug}.md',
-      url: '{yyyy}/{MM}/{slug}'
+      path: 'src/articles/{yyyy}-{MM}-{dd}-{slug}.md',
+      url: 'articles/{yyyy}/{MM}/{slug}'
     },
     media: {
       path: 'src/media/articles/{yyyy}/{MM}/{dd}/{slug}/{filename}',
@@ -51,7 +51,7 @@ indiekit.set('publication.postTypes', [
     type: 'note',
     name: 'Note',
     post: {
-      path: 'src/_content/notes/{yyyy}{MM}{dd}{HH}{mm}{ss}.md',
+      path: 'src/notes/{yyyy}{MM}{dd}{HH}{mm}{ss}.md',
       url: 'notes/{yyyy}{MM}{dd}{HH}{mm}{ss}'
     }
   },
@@ -59,7 +59,7 @@ indiekit.set('publication.postTypes', [
       type: 'reply',
       name: 'Reply',
       post: {
-        path: 'src/_content/replies/{yyyy}{MM}{dd}{HH}{mm}{ss}.md',
+        path: 'src/replies/{yyyy}{MM}{dd}{HH}{mm}{ss}.md',
         url: 'replies/{yyyy}{MM}{dd}{HH}{mm}{ss}'
       }
     },
@@ -67,7 +67,7 @@ indiekit.set('publication.postTypes', [
     type: 'photo',
     name: 'Photo',
     post: {
-      path: 'src/_content/photos/{yyyy}-{MM}-{dd}-{slug}.md',
+      path: 'src/photos/{yyyy}-{MM}-{dd}-{slug}.md',
       url: 'photos/{yyyy}/{MM}/{slug}'
     },
     media: {
@@ -79,7 +79,7 @@ indiekit.set('publication.postTypes', [
     type: 'bookmark',
     name: 'Bookmark',
     post: {
-      path: 'src/_content/bookmarks/{yyyy}-{MM}-{dd}-{slug}.md',
+      path: 'src/bookmarks/{yyyy}-{MM}-{dd}-{slug}.md',
       url: 'bookmarks/{yyyy}/{MM}/{slug}'
     }
   },
@@ -87,7 +87,7 @@ indiekit.set('publication.postTypes', [
     type: 'like',
     name: 'Like',
     post: {
-      path: 'src/_content/likes/{yyyy}-{MM}-{dd}-{slug}.md',
+      path: 'src/likes/{yyyy}-{MM}-{dd}-{slug}.md',
       url: 'likes/{slug}'
     }
   }
