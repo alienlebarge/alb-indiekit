@@ -20,9 +20,9 @@
     "url": "https://alienlebarge.ch"
   },
   "type": "module",
-  "main": "indiekit.config.js",
+  "main": "index.config.js",
   "scripts": {
-    "start": "DEBUG=* node indiekit.config.js"
+    "start": "indiekit serve"
   },
   "dependencies": {
     "@indiekit/indiekit": "^1.0.0-alpha.3",
