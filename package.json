@@ -25,11 +25,11 @@
     "start": "DEBUG=* node indiekit.config.js"
   },
   "dependencies": {
-    "@indiekit/indiekit": "^0.3.0",
-    "@indiekit/preset-jekyll": "^0.3.0",
-    "@indiekit/store-github": "^0.3.0",
-    "@indiekit/syndicator-mastodon": "^0.3.0",
-    "@indiekit/syndicator-twitter": "^0.3.0"
+    "@indiekit/indiekit": "^1.0.0-alpha.3",
+    "@indiekit/preset-jekyll": "^1.0.0-alpha.0",
+    "@indiekit/store-github": "^1.0.0-alpha.0",
+    "@indiekit/syndicator-mastodon": "^1.0.0-alpha.0",
+    "@indiekit/syndicator-twitter": "^1.0.0-alpha.0"
   },
   "engines": {
     "node": ">=16"
