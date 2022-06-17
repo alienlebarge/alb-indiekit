@@ -1,6 +1,6 @@
 module.exports = {
   application: {
-    url: "https://indiekit.alienlebarge.com",
+    url: "https://indiekit.alienlebarge.ch",
     mongodbUrl: process.env.MONGO_URL,
   },
   plugins: [
