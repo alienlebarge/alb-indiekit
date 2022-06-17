@@ -19,7 +19,6 @@
     "name": "Cédric Aellen",
     "url": "https://alienlebarge.ch"
   },
-  "type": "module",
   "main": "index.config.js",
   "scripts": {
     "start": "indiekit serve"
