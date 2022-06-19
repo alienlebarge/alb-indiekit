@@ -78,6 +78,7 @@ module.exports = {
   "@indiekit/store-github": {
     user: "alienlebarge",
     repo: "alienlebarge-v3",
+    branch: "master",
   },
   "@indiekit/syndicator-mastodon": {
     checked: true,
