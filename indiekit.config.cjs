@@ -2,7 +2,6 @@ module.exports = {
   application: {
     url: "https://indiekit.alienlebarge.ch",
     mongodbUrl: process.env.MONGO_URL,
-    locale: "fr",
   },
   plugins: [
     "@indiekit/preset-jekyll",
