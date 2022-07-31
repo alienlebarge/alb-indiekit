@@ -19,12 +19,12 @@ module.exports = {
         type: "article",
         name: "Article",
         post: {
-          path: "src/articles/{yyyy}-{MM}-{dd}-{slug}.md",
+          path: "src/articles/{yyyy}/{MM}/{slug}/index.md",
           url: "articles/{yyyy}/{MM}/{slug}",
         },
         media: {
-          path: "src/media/articles/{yyyy}/{MM}/{dd}/{slug}/{filename}",
-          url: "media/articles/{yyyy}/{MM}/{dd}/{slug}/{filename}",
+          path: "src/articles/{yyyy}/{MM}/{slug}/{filename}",
+          url: "media/articles/{yyyy}/{MM}/{slug}/{filename}",
         },
       },
       {
