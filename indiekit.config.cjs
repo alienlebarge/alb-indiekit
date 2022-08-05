@@ -10,6 +10,7 @@ module.exports = {
     "@indiekit/syndicator-twitter",
   ],
   publication: {
+    tokenEndpoint: "https://tokens.indieauth.com/token",
     categories: "https://alienlebarge.ch/archives/categories.json",
     locale: "fr-CH",
     me: "https://alienlebarge.ch",
