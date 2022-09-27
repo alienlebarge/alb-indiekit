@@ -82,7 +82,7 @@ module.exports = {
   "@indiekit/syndicator-mastodon": {
     checked: true,
     forced: true,
-    url: "https://mastodon.alienlebarge.ch",
+    url: "https://mastodon.social",
     user: "alienlebarge",
   },
   "@indiekit/syndicator-twitter": {
