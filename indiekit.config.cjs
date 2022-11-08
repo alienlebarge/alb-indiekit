@@ -71,6 +71,14 @@ module.exports = {
           url: "likes/{slug}",
         },
       },
+      {
+        type: "repost",
+        name: "Repost",
+        post: {
+          path: "src/reposts/{yyyy}-{MM}-{dd}-{slug}.md",
+          url: "reposts/{slug}",
+        },
+      },
     ],
     slugSeparator: "-",
     timeZone: "Europe/Zurich",
