@@ -24,11 +24,11 @@
     "start": "indiekit serve"
   },
   "dependencies": {
-    "@indiekit/indiekit": "^1.0.0-alpha.12",
-    "@indiekit/preset-jekyll": "^1.0.0-alpha.9",
-    "@indiekit/store-github": "^1.0.0-alpha.12",
-    "@indiekit/syndicator-mastodon": "^1.0.0-alpha.12",
-    "@indiekit/syndicator-twitter": "^1.0.0-alpha.12"
+    "@indiekit/indiekit": "^1.0.0-alpha.16",
+    "@indiekit/preset-jekyll": "^1.0.0-alpha.13",
+    "@indiekit/store-github": "^1.0.0-alpha.16",
+    "@indiekit/syndicator-mastodon": "^1.0.0-alpha.16",
+    "@indiekit/syndicator-twitter": "^1.0.0-alpha.16"
   },
   "engines": {
     "node": ">=16"
