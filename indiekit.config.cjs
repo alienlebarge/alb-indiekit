@@ -2,6 +2,7 @@ module.exports = {
   application: {
     url: "https://indiekit.alienlebarge.ch",
     mongodbUrl: process.env.MONGO_URL,
+    timeZone: "Europe/Zurich",
   },
   plugins: [
     "@indiekit/preset-jekyll",
@@ -80,7 +81,6 @@ module.exports = {
       },
     ],
     slugSeparator: "-",
-    timeZone: "Europe/Zurich",
   },
   "@indiekit/store-github": {
     user: "alienlebarge",
