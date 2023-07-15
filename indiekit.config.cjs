@@ -88,13 +88,13 @@ module.exports = {
   },
   "@indiekit/syndicator-mastodon": {
     checked: true,
-    forced: true,
+    forced: false,
     url: "https://social.lol",
     user: "alienlebarge",
   },
   "@indiekit/syndicator-twitter": {
     checked: true,
-    forced: true,
+    forced: false,
     user: "alienlebarge",
   },
 };
