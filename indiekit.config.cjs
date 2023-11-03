@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     "@indiekit/preset-jekyll",
     "@indiekit/store-github",
+    "@indiekit/syndicator-internet-archive",
     "@indiekit/syndicator-mastodon",
   ],
   publication: {
