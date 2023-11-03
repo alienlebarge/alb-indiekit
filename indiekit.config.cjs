@@ -8,7 +8,6 @@ module.exports = {
     "@indiekit/preset-jekyll",
     "@indiekit/store-github",
     "@indiekit/syndicator-mastodon",
-    "@indiekit/syndicator-twitter",
   ],
   publication: {
     categories: "https://alienlebarge.ch/archives/categories.json",
@@ -90,11 +89,6 @@ module.exports = {
     checked: true,
     forced: false,
     url: "https://social.lol",
-    user: "alienlebarge",
-  },
-  "@indiekit/syndicator-twitter": {
-    checked: true,
-    forced: false,
     user: "alienlebarge",
   },
 };
