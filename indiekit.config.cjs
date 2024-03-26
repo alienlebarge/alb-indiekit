@@ -65,6 +65,12 @@ module.exports = {
           url: "likes/{slug}",
         },
       },
+      jam: {
+        post: {
+          path: "src/jams/{yyyy}-{MM}-{dd}-{n}.md",
+          url: "james/{yyyy}{MM}{dd}{HH}{mm}{ss}",
+        },
+      },
       repost: {
         post: {
           name: "Repost",
