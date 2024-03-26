@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@indiekit/indiekit": "^1.0.0-beta.9",
+    "@indiekit/post-type-jam": "^1.0.0-beta.8",
     "@indiekit/preset-jekyll": "^1.0.0-beta.8",
     "@indiekit/store-github": "^1.0.0-beta.8",
     "@indiekit/syndicator-internet-archive": "^1.0.0-beta.8",
