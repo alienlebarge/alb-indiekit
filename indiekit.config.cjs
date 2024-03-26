@@ -5,6 +5,7 @@ module.exports = {
     timeZone: "Europe/Zurich",
   },
   plugins: [
+    "@indiekit/post-type-jam",
     "@indiekit/preset-jekyll",
     "@indiekit/store-github",
     "@indiekit/syndicator-internet-archive",
